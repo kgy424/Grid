@@ -37,7 +37,9 @@ gap: 10px;
 
 }
 .item:nth-child(2){transform: scale(2);}
-.item:nth-child(3){z-index: 10;}
+.item:nth-child(3){z-index: 10;
+/* flex나 grid는 position 옶이 z-index가 실행됨. */
+}
 
 
 .item{
